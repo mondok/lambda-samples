@@ -1,3 +1,7 @@
+/*
+  Receives a Request from S3 and pushes the Request result into SQS.
+  You need to make sure your Lambda role has access to SQS first.
+*/
 var AWS = require('aws-sdk');
 
 exports.handler = function(event, context) {
