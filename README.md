@@ -1,2 +1,8 @@
 # Sample Lamdba Functions for AWS
-This is more of a personal repository for functions I need for lamdba.  
+Repository of AWS Lambda sample code.
+
+### /sns
+`sns` contains samples for sending S3 messages to SNS
+
+### /sqs
+`sqs` contains samples for sending S3 messages to SQS
